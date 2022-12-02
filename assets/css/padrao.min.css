@@ -1,0 +1,425 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+/**** ------ Váriaveis de estilização predifinas ---------**/
+
+:root {
+	--main-1: #f6cd45;
+	--main-2: #594091;
+	--main-3: #fff;
+	--sombra: 1px 2px 6px rgba(0, 0, 0, .8);
+}
+
+body {
+	overflow-x: hidden !important;
+}
+
+/**** ----------- Menhu de Navegação ----------------------------*****/
+
+header#menu {
+	width: 100%;
+	height: 80px;
+	background-color: var(--main-2);
+	box-shadow: var(--sombra);
+	z-index: 9999;
+	border-bottom: 2px solid rgba(0, 0, 0, .1);
+}
+
+nav.navmenu {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav.navmenu .logo-nav img {
+	width: 130px;
+	height: 50px;
+	margin-top: 12px;
+}
+
+.btn-menu {
+	display: none;
+	float: right;
+}
+
+nav.navmenu .navmenu-items {
+	height: 80px;
+	line-height: 10px;
+	padding-top: 35px;
+}
+
+nav.navmenu .navmenu-items ul {
+	width: 100%;
+	height: 80px;
+	line-height: 10px;
+}
+
+nav.navmenu .navmenu-items ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav.navmenu .navmenu-items ul li a {
+	transition: all .3s linear;
+	color: var(--main-3);
+	font-weight: 600;
+	font-size: 1.7rem;
+	text-decoration: none;
+}
+
+nav.navmenu .navmenu-items ul li a:hover {
+	transition: all .3s linear;
+	color: var(--main-1);
+}
+
+nav.navmenu .navmenu-opcoes {
+	padding-top: 32px;
+}
+
+a.btn-navmenu {
+	transition: all .3s linear;
+	border: 1px solid var(--main-1);
+	padding: 9px 30px;
+	color: var(--main-1);
+	font-weight: 700;
+	border-radius: 0.4rem;
+	margin-top: 4px;
+	text-decoration: none;
+}
+
+a.btn-navmenu:hover {
+	transition: all .3s linear;
+	border: 1px solid var(--main-1);
+	color: var(--main-3);
+	background-color: var(--main-1);
+}
+
+a.btn-navmenu--2 {
+	transition: all .3s linear;
+	border: 1px solid var(--main-1);
+	background-color: var(--main-1);
+	padding: 9px 30px;
+	color: var(--main-3);
+	font-weight: 700;
+	border-radius: 0.4rem;
+	margin-top: 4px;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+a.btn-navmenu--2:hover {
+	transition: all .3s linear;
+	border: 1px solid var(--main-2);
+	color: var(--main-2);
+	background-color: var(--main-3);
+	margin-left: 25px;
+}
+
+a.btn-navmenu--3 {
+	transition: all .3s linear;
+	border: 1px solid var(--main-3);
+	background-color: var(--main-3);
+	padding: 9px 30px;
+	color: var(--main-2);
+	font-weight: 700;
+	border-radius: 0.4rem;
+	margin-top: 4px;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+a.btn-navmenu--3:hover {
+	transition: all .3s linear;
+	border: 1px solid var(--main-3);
+	color: var(--main-3);
+	background-color: var(--main-2);
+	margin-left: 25px;
+}
+
+nav.navmenu .navmenu-opcoes a img {
+	margin-top: -2px;
+	width: 55px;
+	height: 40px;
+}
+
+/**** -------------- Banner -----------------**/
+
+section#banner {
+	height: 100%;
+	width: 100%;
+	background-color: var(--main-2);
+	padding: 80px 0px;
+	margin-bottom: 20px;
+}
+
+section#banner .banner-content {
+	padding: 80px 10px;
+}
+
+section#banner .banner-content h1 {
+	color: var(--main-3);
+	font-weight: 700;
+	font-size: 4.5rem;
+}
+
+section#banner .banner-content h3 {
+	color: var(--main-3);
+	font-weight: 500;
+}
+
+section#banner .banner-content p {
+	color: var(--main-3);
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+
+section#banner .banner-img img {
+	width: 290px;
+	height: 300px;
+	margin-top: 18px;
+}
+
+/*** --------- Conteudos - Others -----------**/
+
+section#content--1, section#content--2 {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+section#content--2, section#content--3 {
+	padding: 18px;
+	background-color: var(--main-2);
+	color: var(--main-3);
+}
+
+section#content--3 {
+	margin-top: 30px;
+}
+
+section#content--1 .content--1-img img {
+	width: 500px;
+	height: 360px;
+}
+
+section#content--1 .content--1-txt {
+	padding: 10px 15px;
+}
+
+section#content--1 .content--1-txt h2 {
+	font-weight: 700;
+	color: #000;
+	font-size: 3.4rem;
+}
+
+
+section#content--1 .content--1-txt ul li {
+	margin-left: 28px;
+}
+
+section#content--1 .content--1-txt p span {
+	border: 1px solid #333;
+	padding: 5px 10px;
+}
+
+section#content--1 .content--2-img img {
+	width: 310px;
+	height: 450px;
+	float: right;
+}
+
+section#content--1 .content--2-txt {
+	padding: 20px 15px;
+	padding-top: 80px;
+}
+
+section#content--1 .content--2-txt h2 {
+	font-weight: 700;
+	color: #000;
+	font-size: 3.4rem;
+	line-height: 50px;
+	margin-top: 20px !important;
+}
+
+section#content--1 .content--2-txt p {
+	margin-top: 60px !important;
+}
+
+.content--img {
+	width: 300px;
+	height: 250px;
+	border-radius: 0.5rem;
+	margin-bottom: 18px;
+}
+
+section#content--1 .content--3-img img {
+	width: 600px;
+	height: 450px;
+	float: right;
+}
+
+section#content--1 .content--3-txt {
+	padding: 20px 15px;
+	padding-top: 100px;
+}
+
+section#content--1 .content--3-txt h2 {
+	font-weight: 700;
+	color: #000;
+	font-size: 3.8rem;
+	line-height: 50px;
+	margin-top: 20px !important;
+}
+
+section#content--3 .content--4-txt h3 {
+	font-weight: 700;
+	color: var(--main-3);
+	font-size: 3.6rem;
+	margin-top: 20px !important;
+}
+
+section#content--3 .content--4-btn {
+	padding-top: 50px !important;
+}
+
+.content--4-txt h3 {
+	font-weight: 700;
+}
+
+.content--4-txt ul li {
+	list-style: none;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.content--4-txt ul li a {
+	transition: .3s linear;
+	text-decoration: none;
+	color: #333;
+}
+
+.content--4-txt ul li a:hover {
+	color: var(--main-1);
+	transition: .3s linear;
+}
+
+.content--5-txt {
+	padding: 18px;
+	margin-top: 25px;
+}
+
+.icon-img-fb {
+	width: 12px;
+	height: 15px;
+	margin-right: 15px;
+	margin-left: 38px;
+}
+
+.icon-img-y {
+	width: 18px;
+	height: 15px;
+	margin-right: 15px;
+}
+
+.icon-img {
+	width: 16px;
+	height: 15px;
+	margin-right: 15px;
+}
+
+/*** -------------- Menu mobile ----------------**/
+
+.menumobile {
+	background-color: rgba(0, 0, 0, .7);
+	width: 100%;
+	height: 100vh;
+	transition: .3s linear;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999999;
+	display: none;
+}
+
+.menumobile-nav {
+	float: right;
+	background-color: var(--main-3);
+	width: 300px;
+	height: 100vh;
+	padding: 30px 19px;
+	transition: .4s linear;
+}
+
+.menumobile-nav ul li {
+	margin-bottom: 16px;
+	list-style: none;
+}
+
+.menumobile-nav ul li a {
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: #333;
+	font-weight: 400;
+}
+
+.menumobile-nav ul li a:hover {
+	color: var(--main-1);
+}
+
+.btn-close {
+	position: absolute;
+	top: 2%;
+	right: 3%;
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+
+/***----------------- Responsividade ------------------**/
+
+@media screen and (max-width: 500px) {
+	.banner-img {
+		display: none !important;
+	}
+	.banner-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 725px) {
+	.navmenu-items {
+		display: none !important;
+	}
+	.btn-menu {
+		display: block !important;
+		margin-top: -10px;
+	}
+	.banner-img {
+		display: none !important;
+	}
+	.banner-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.banner-img {
+		display: none !important;
+	}
+	.banner-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
