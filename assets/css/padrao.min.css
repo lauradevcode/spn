@@ -95,6 +95,7 @@ a.btn-navmenu:hover {
 	border: 1px solid var(--main-1);
 	color: var(--main-3);
 	background-color: var(--main-1);
+	text-decoration: none;
 }
 
 a.btn-navmenu--2 {
@@ -108,6 +109,7 @@ a.btn-navmenu--2 {
 	margin-top: 4px;
 	text-decoration: none;
 	margin-top: 15px;
+	text-decoration: none;
 }
 
 a.btn-navmenu--2:hover {
@@ -116,6 +118,7 @@ a.btn-navmenu--2:hover {
 	color: var(--main-2);
 	background-color: var(--main-3);
 	margin-left: 25px;
+	text-decoration: none;
 }
 
 a.btn-navmenu--3 {
@@ -137,6 +140,7 @@ a.btn-navmenu--3:hover {
 	color: var(--main-3);
 	background-color: var(--main-2);
 	margin-left: 25px;
+	text-decoration: none;
 }
 
 nav.navmenu .navmenu-opcoes a img {
