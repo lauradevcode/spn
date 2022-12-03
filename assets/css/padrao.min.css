@@ -188,12 +188,14 @@ section#banner .banner-img img {
 
 /*** --------- Conteudos - Others -----------**/
 
-section#content--1, section#content--2 {
+section#content--1,
+section#content--2 {
 	margin-top: 30px;
 	margin-bottom: 60px;
 }
 
-section#content--2, section#content--3 {
+section#content--2,
+section#content--3 {
 	padding: 18px;
 	background-color: var(--main-2);
 	color: var(--main-3);
@@ -386,6 +388,7 @@ section#content--3 .content--4-btn {
 	.banner-img {
 		display: none !important;
 	}
+
 	.banner-content {
 		display: flex;
 		flex-direction: column;
@@ -399,13 +402,16 @@ section#content--3 .content--4-btn {
 	.navmenu-items {
 		display: none !important;
 	}
+
 	.btn-menu {
 		display: block !important;
 		margin-top: -10px;
 	}
+
 	.banner-img {
 		display: none !important;
 	}
+
 	.banner-content {
 		display: flex;
 		flex-direction: column;
@@ -419,6 +425,7 @@ section#content--3 .content--4-btn {
 	.banner-img {
 		display: none !important;
 	}
+
 	.banner-content {
 		display: flex;
 		flex-direction: column;
@@ -426,4 +433,14 @@ section#content--3 .content--4-btn {
 		align-items: center;
 		text-align: center;
 	}
+}
+
+/***----------------- efeito-zoom-nas-imagens-com-lupa ------------------**/
+
+.efeito-zoom-imagem img {
+	transition: 0.5s ease-in-out;
+}
+
+.efeito-zoom-imagem:hover img {
+	transform: scale(2);
 }
