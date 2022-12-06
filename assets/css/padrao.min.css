@@ -95,6 +95,7 @@ a.btn-navmenu:hover {
 	border: 1px solid var(--main-1);
 	color: var(--main-3);
 	background-color: var(--main-1);
+	text-decoration: none;
 }
 
 a.btn-navmenu--2 {
@@ -108,6 +109,7 @@ a.btn-navmenu--2 {
 	margin-top: 4px;
 	text-decoration: none;
 	margin-top: 15px;
+	text-decoration: none;
 }
 
 a.btn-navmenu--2:hover {
@@ -116,6 +118,7 @@ a.btn-navmenu--2:hover {
 	color: var(--main-2);
 	background-color: var(--main-3);
 	margin-left: 25px;
+	text-decoration: none;
 }
 
 a.btn-navmenu--3 {
@@ -137,6 +140,7 @@ a.btn-navmenu--3:hover {
 	color: var(--main-3);
 	background-color: var(--main-2);
 	margin-left: 25px;
+	text-decoration: none;
 }
 
 nav.navmenu .navmenu-opcoes a img {
@@ -184,12 +188,14 @@ section#banner .banner-img img {
 
 /*** --------- Conteudos - Others -----------**/
 
-section#content--1, section#content--2 {
+section#content--1,
+section#content--2 {
 	margin-top: 30px;
 	margin-bottom: 60px;
 }
 
-section#content--2, section#content--3 {
+section#content--2,
+section#content--3 {
 	padding: 18px;
 	background-color: var(--main-2);
 	color: var(--main-3);
@@ -382,6 +388,7 @@ section#content--3 .content--4-btn {
 	.banner-img {
 		display: none !important;
 	}
+
 	.banner-content {
 		display: flex;
 		flex-direction: column;
@@ -395,13 +402,16 @@ section#content--3 .content--4-btn {
 	.navmenu-items {
 		display: none !important;
 	}
+
 	.btn-menu {
 		display: block !important;
 		margin-top: -10px;
 	}
+
 	.banner-img {
 		display: none !important;
 	}
+
 	.banner-content {
 		display: flex;
 		flex-direction: column;
@@ -415,6 +425,7 @@ section#content--3 .content--4-btn {
 	.banner-img {
 		display: none !important;
 	}
+
 	.banner-content {
 		display: flex;
 		flex-direction: column;
@@ -422,4 +433,14 @@ section#content--3 .content--4-btn {
 		align-items: center;
 		text-align: center;
 	}
+}
+
+/***----------------- efeito-zoom-nas-imagens-com-lupa ------------------**/
+
+.efeito-zoom-imagem img {
+	transition: 0.5s ease-in-out;
+}
+
+.efeito-zoom-imagem:hover img {
+	transform: scale(2);
 }
