@@ -421,7 +421,7 @@ section#content--3 .content--4-btn {
 	}
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (min-width: 920px) {
 	.banner-img {
 		display: none !important;
 	}
