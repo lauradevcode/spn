@@ -385,9 +385,9 @@ section#content--3 .content--4-btn {
 /***----------------- Responsividade ------------------**/
 
 @media screen and (max-width: 500px) {
-	.banner-img {
+	/* .banner-img {
 		display: none !important;
-	}
+	} */
 
 	.banner-content {
 		display: flex;
@@ -408,9 +408,9 @@ section#content--3 .content--4-btn {
 		margin-top: -10px;
 	}
 
-	.banner-img {
+	/* .banner-img {
 		display: none !important;
-	}
+	} */
 
 	.banner-content {
 		display: flex;
@@ -422,9 +422,9 @@ section#content--3 .content--4-btn {
 }
 
 @media screen and (min-width: 920px) {
-	.banner-img {
+	/* .banner-img {
 		display: none !important;
-	}
+	} */
 
 	.banner-content {
 		display: flex;
