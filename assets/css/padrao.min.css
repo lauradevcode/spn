@@ -181,7 +181,7 @@ section#banner .banner-content p {
 }
 
 section#banner .banner-img img {
-	width: 290px;
+	margin-left: 120px;
 	height: 300px;
 	margin-top: 18px;
 }
