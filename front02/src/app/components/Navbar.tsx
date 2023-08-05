@@ -1,30 +1,36 @@
 import React from 'react';
-import Logotipo from '../assets/imagens/logo.png'
+import Logo from '../assets/imagens/logo.png'
 // import { Container } from './styles';
 
 const Navbar: React.FC = () => {
-  return <nav className="bg-blue-500 py-4 w-full z-10 flexed z-10">
-    <div className="container mx-auto flex">
-      <div>
-        <a href="">
-          <img className='w-28' src={Logotipo} alt="logo" />
-        </a>
-      </div>
-      <div className='ml-40'>
-        <ul className="flex space-x-4">
-          <li>
-          <a href="#" className="text-yellow-400 font-bold hover:text-yellow-400">Home</a>
-        </li>
-        <li>
-          <a href="#" className="text-white hover:text-yellow-400 hover:font-bold" >About</a>
-        </li>
-        <li>
-          <a href="#" className="text-white hover:text-yellow-400 hover:font-bold">Contact</a>
-        </li>
-        </ul>
-      </div>
+  return <nav className="bg-blue-400 py-4 w-full z-10 flexed z-10 drop-shadow-md">
+  <div className="container mx-auto flex items-center">
+    <div>
+      <a href="">
+        <img className='w-28' src={Logo} alt="Logo" />
+      </a>
     </div>
-  </nav>;
+    <div className='ml-96'>
+      <ul className="flex space-x-4 gap-2">
+        <li>
+          <a href="#home" className="text-white hover:text-yellow-400 hover:font-bold hover:underline active:font-bold active:text-yellow-400 active:underline">Home</a>
+        </li>
+        <li>
+          <a href="#" className="text-white hover:text-yellow-400 hover:font-bold hover:underline">Sobre nós</a>
+        </li>
+        <li>
+          <a href="#" className="text-white hover:text-yellow-400 hover:font-bold hover:underline">Portfólio</a>
+        </li>
+        <li>
+          <a href="#" className="text-white hover:text-yellow-400 hover:font-bold hover:underline">Team</a>
+        </li>
+        <li>
+          <a href="#" className="text-white hover:text-yellow-400 hover:font-bold hover:underline">Contatos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>;
 }
 
 export default Navbar;
