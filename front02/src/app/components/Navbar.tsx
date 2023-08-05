@@ -3,7 +3,7 @@ import Logo from '../assets/imagens/logo.png'
 // import { Container } from './styles';
 
 const Navbar: React.FC = () => {
-  return <nav className="bg-blue-400 py-4 w-full z-10 flexed z-10 drop-shadow-md">
+  return <nav className="bg-blue-500 py-4 w-full z-10 flexed z-10 drop-shadow-md">
   <div className="container mx-auto flex items-center">
     <div>
       <a href="">
