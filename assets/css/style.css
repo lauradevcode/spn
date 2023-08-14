@@ -4,6 +4,7 @@
     --main-color1: #fff;
     --main-bg: #00A2FF;
     --main-color2: #282828;
+    --subtitulo-color:var(--main-color2);
 
 }
 
@@ -14,32 +15,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+header{
+    background-color: var(--main-bg);
+    box-shadow: 0px 3px 10px var(--main-color2);
 }
-
-::selection {
-    color: var(--main-color1);
-    background-color: ;
-}
-
-::-webkit-scrollbar{
-    width: 10px;
-
-}
-
-::-webkit-scrollbar-track{
-    background-color: ;
-
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: ;
-    border-radius: 10px;
-}
-
-
-
-
-
 
