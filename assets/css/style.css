@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital@1&display=swap');
+:root{
+    --main-color: #F6DD37;
+    --main-color1: #fff;
+    --main-bg: #00A2FF;
+    --main-color2: #282828;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    color: var(--main-color1);
+    background-color: ;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: ;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: ;
+    border-radius: 10px;
+}
+
+
+
+
+
+
