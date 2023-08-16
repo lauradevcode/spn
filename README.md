@@ -5,5 +5,4 @@ tornar real, melhorar e IMPULSIONAR a ideia do seu negócio,
   </br>
 com uso da TECNOLOGIA e INOVAÇÃO. </p>
 
-https://github.com/lauradevcode/spn-ltda.github.io/assets/43537647/45479469-8364-4147-b46c-7a54a7a1720e
-
+<im
