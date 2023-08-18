@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal; 
 }
 
 .bs-icon {
@@ -66,10 +68,12 @@ body .navbar .container .collapse .navbar-nav .nav-item .nav-link{
  
   color: #f9f5f5; 
 }
+
 body .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover{
   text-decoration: 3px solid underline #F6DD37;
   color:#F6DD37;  
 }
+
 .py-5 .container a:hover{
    background-color:#f6dd37cb; 
 }
