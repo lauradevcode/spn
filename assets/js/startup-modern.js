@@ -24,3 +24,16 @@
 
 })(); // End of use strict
 
+// Seleciona todos os itens do menu
+const menuItems = document.querySelectorAll('nav ul li a');
+
+// Adiciona um ouvinte de evento para cada item do menu
+menuItems.forEach(item => {
+    item.addEventListener('click', function() {
+        // Remove a classe 'active' de todos os itens
+        menuItems.forEach(item => item.classList.remove('active'));
+        
+        // Adiciona a classe 'active' apenas ao item clicado
+        this.classList.add('active');
+    });
+});
