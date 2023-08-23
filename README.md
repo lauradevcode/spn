@@ -43,6 +43,6 @@ Fique atualizado com as últimas notícias, tecnologias e dicas espaciais seguin
 Agradecemos por nos visitar e por fazer parte de nossa missão de explorar o vasto universo digital! Juntos, alcançaremos o infinito e além. 🚀✨🪐
 
 <center>
-    <img  src="https://github.com/lauradevcode/spn-ltda.github.io/assets/43537647/b6ae36e8-3e39-4ed8-b3c3-657f4e52752f" width="1200" height="600"/>
+    <img  src="https://github.com/lauradevcode/spn-ltda.github.io/assets/43537647/b6ae36e8-3e39-4ed8-b3c3-657f4e52752f" width="1200" height="560"/>
 </center>
 
