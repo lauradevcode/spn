@@ -227,11 +227,7 @@ nav ul li a.active {
 
 /* Estilos base para telas maiores */
 @media (min-width: 1000px) {
-  .container-fluid {
-
-
-  }
-
+ 
   .collapse .navbar-nav .nav-item a {
     font-size: 19px;
   }
@@ -244,11 +240,6 @@ nav ul li a.active {
     font-size: 25px !important;
   }
 
-  .col-md-6 {
-    display: inline-flex !important;
-    padding: 55.063px 54.061px 4.514px 43.963px !important;
-    align-items: center !important;
-  }
 
   .text-section {
     padding: 10px !important;
@@ -273,6 +264,15 @@ nav ul li a.active {
   }
 
   img {
-    width: 600px;
-  }
+    width: 700px;
+ 
+ }
+ #card img{
+ width:110px;
+ height:110px;
+ }
+ .features-icons-item h5{
+  font-size:24px !important;
+ 
+ }
 }
