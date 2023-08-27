@@ -197,6 +197,7 @@ nav ul li a.active {
   .custom-text {
     font-size: 18px !important;
   }
+  
 }
 
 /*segunda section*/
@@ -226,14 +227,14 @@ nav ul li a.active {
 }
 
 /* Estilos base para telas maiores */
-@media (min-width: 1000px) {
+@media (min-width: 1920px) {
  
   .collapse .navbar-nav .nav-item a {
     font-size: 19px;
   }
 
   .centert-h2 {
-    font-size: 67px !important;
+    font-size: 70px !important;
   }
 
   .text-start p {
@@ -275,4 +276,34 @@ nav ul li a.active {
   font-size:24px !important;
  
  }
+.page-footer .col-12 img{
+  object-fit: contain;
+ }
+
+
+}
+/* Estilos para telas maiores (1920px) */
+@media (min-width: 1920px) {
+  .page-footer {
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .page-footer > div {
+    flex: 1;
+    padding: 40px;
+  }
+
+  .page-footer > div ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bolder;
+  }
+
+  .footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
