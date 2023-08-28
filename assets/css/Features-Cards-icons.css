@@ -132,6 +132,7 @@ nav ul li a:hover {
   font-weight: 600;
   padding: 10px 20px;
   /* Ajuste o valor do padding */
+  border-radius:none; 
 }
 
 .btn-outline-light:hover {
