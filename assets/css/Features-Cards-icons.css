@@ -247,7 +247,9 @@ nav ul li a:hover {
     font-size: 25px !important;
   }
 
-
+  #Const{
+    margin-top: 50px;
+  }
   .text-section {
    
     width: 784px;
