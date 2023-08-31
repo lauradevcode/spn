@@ -248,7 +248,7 @@ nav ul li a:hover {
   }
 
   #Const{
-    margin-top: 50px;
+    margin-top: 50px !important;
   }
   .text-section {
    
