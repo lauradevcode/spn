@@ -22,7 +22,7 @@ Estamos sempre em busca de mentes brilhantes para se juntar à nossa tripulaçã
 
 A navegação intergaláctica ficou mais fácil com nossos canais de comunicação:
 
-- **Website:** [https://www.spnltda.com]https://lauradevcode.github.io/spn/)
+- **Website:** [https://lauradevcode.github.io/spn/]https://www.spnltda.com)
 - **E-mail:** contato@spnltda.com
 - **Telefone:** (123) 456-7890
 
