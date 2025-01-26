@@ -1,3 +1,20 @@
+@keyframes vibrate {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 2px); }
+  30% { transform: translate(2px, -2px); }
+  50% { transform: translate(-2px, 2px); }
+  70% { transform: translate(2px, -2px); }
+  100% { transform: translate(0, 0); }
+}
+
+.whatsapp-icon {
+  font-size: 48px; /* Ajuste conforme necessário */
+  color: #25D366; /* Cor do WhatsApp */
+  animation: vibrate 0.8s infinite;
+  cursor: pointer;
+}
+
+
 .bs-icon {
   --bs-icon-size: .75rem;
   display: flex;
