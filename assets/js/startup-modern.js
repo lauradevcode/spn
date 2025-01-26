@@ -24,3 +24,16 @@
 
 })(); // End of use strict
 
+document.addEventListener("DOMContentLoaded", function() {
+  var homeLink = document.querySelector('#mainNav .nav-link[href="#"]');
+  
+  if (homeLink) {
+    homeLink.addEventListener('click', function(event) {
+      event.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+});

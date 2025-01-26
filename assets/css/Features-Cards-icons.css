@@ -1,3 +1,10 @@
+#mainNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Certifique-se de que o navbar fique acima de outros elementos */
+}
+
 @keyframes vibrate {
   0% { transform: translate(0, 0); }
   20% { transform: translate(-2px, 2px); }
