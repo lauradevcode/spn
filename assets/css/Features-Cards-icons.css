@@ -82,7 +82,7 @@
 /* Estilos para o navbar */
 /* Estilos para a barra de navegação */
 .navbar {
-  background: #0089FF;
+  background: #f8fcff;
   margin-bottom: -56px;
   color: #ffffff;
 }
@@ -141,8 +141,18 @@ nav ul li a:hover {
   font-size: 15px;
   font-weight: bold;
 }
+
+.logo-pincodes {
+  width: 100px;
+  height: 60px;
+  
+}
+
+
+
+
 .collapse .navbar-nav .nav-item a {
-  color: rgb(255, 255, 255);
+  color: #0089FF;
   font-size: 16px;
   font-weight: bold;
 }
