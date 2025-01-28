@@ -1,6 +1,6 @@
 # 🚀 Bem-vindo à Nossa Espaçonave Digital 🌌
 
-Você acaba de aterrissar no repositório do site da Empresa de Desenvolvimento de Software SPN, onde a inovação e o código se encontram! 🛸
+Você acaba de aterrissar no repositório do site da Empresa de Desenvolvimento de Soluções PainCode, onde a inovação e o código se encontram! 🛸
 
 ## 🌐 Explore o Universo da Tecnologia
 
@@ -22,9 +22,9 @@ Estamos sempre em busca de mentes brilhantes para se juntar à nossa tripulaçã
 
 A navegação intergaláctica ficou mais fácil com nossos canais de comunicação:
 
-- **Website:** https://lauradevcode.github.io/spn/
-- **E-mail:** contato@spnltda.com
-- **Telefone:** (123) 456-7890
+- **Website:** https://lauradevcode.github.io/paincode/
+- **E-mail:** paincodecontato@gmail.com
+- **Telefone:** (61) 99854-8265
 
 ## 🛸 Explore Novas Fronteiras
 
@@ -34,15 +34,11 @@ Não se esqueça de verificar nossos projetos em andamento e nossos desenvolvime
 
 Fique atualizado com as últimas notícias, tecnologias e dicas espaciais seguindo-nos em:
 
-- [Facebook](https://www.facebook.com/spnltda)
-- [Twitter](https://twitter.com/spnltda)
-- [LinkedIn](https://www.linkedin.com/company/spnltda)
+- [Facebook](https://www.facebook.com/)
+- [LinkedIn](https://www.linkedin.com/company/)
 
 ## 🚀 Obrigado por Voar Conosco!
 
 Agradecemos por nos visitar e por fazer parte de nossa missão de explorar o vasto universo digital! Juntos, alcançaremos o infinito e além. 🚀✨🪐
 
-<center>
-    <img  src="https://github.com/lauradevcode/spn-ltda.github.io/assets/43537647/b6ae36e8-3e39-4ed8-b3c3-657f4e52752f" width="1200" height="560"/>
-</center>
 
