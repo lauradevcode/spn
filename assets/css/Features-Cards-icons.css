@@ -143,10 +143,23 @@ nav ul li a:hover {
 }
 
 .logo-pincodes {
-  width: 100px;
-  height: 60px;
-  
+  width: 120px;  /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;  /* Mantém a proporção original */
+  display: block;  
+  object-fit: contain;  /* Evita cortes na imagem */
 }
+
+.navbar {
+  max-height: 80px;  /* Controla a altura máxima da navbar */
+  padding: 10px 0;  /* Ajusta o espaçamento interno */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+
 
 
 
