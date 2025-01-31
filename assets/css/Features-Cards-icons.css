@@ -172,23 +172,30 @@ nav ul li a:hover {
 
 /* Estilos para o botão */
 .btn-outline-light {
-  color: #f6c350 !important;
-  /* Cor do texto amarela */
-  border-color: #f6c350 !important;
-  /* Cor da borda amarela */
-  font-weight: 600;
-  padding: 10px 20px;
-  /* Ajuste o valor do padding */
-  border-radius:none; 
+  width: 286px;
+  height: 75px;
+  border-radius: 10px;
+  border: 1px solid #ffffff; /* Cor branca no contorno */
+  background: linear-gradient(90deg, #0089FF 0%, #0F3DD3 100%);
+  
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
+/* Efeito hover */
 .btn-outline-light:hover {
-  background-color: #ffffff;
-  /* Fundo branco ao passar o mouse */
-  color: #F6C350 !important;
-  /* Cor do texto branca ao passar o mouse */
-  border: #F6C350;
+  background: #0089FF;
+  border-color: #f8f9fa;
+  transform: scale(1.05);
 }
+
+
 
 .item {
   margin-top: -20px;
