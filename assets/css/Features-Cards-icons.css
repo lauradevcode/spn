@@ -160,6 +160,26 @@ nav ul li a:hover {
 }
 
 
+.image {
+  width: 100%;  /* Ou um valor fixo, como 300px */
+  height: 400px; /* Defina uma altura fixa */
+  object-fit: cover; /* Isso vai garantir que a imagem preencha o espaço sem distorcer */
+}
+
+.image-text-box {
+  background-color: #007EEA; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 10px 30px; /* Espaçamento mais controlado, sem espaçamento excessivo */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-top: 35px; /* Espaço entre a imagem e a caixa de texto */
+  display: flex; /* Layout flexbox */
+  align-items: flex-start; /* Alinha o texto mais para o topo */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  width: 415px;
+  height: 270px;
+  border-radius: 18px;
+  opacity: 1; /* Garantir visibilidade da caixa */
+}
 
 
 
