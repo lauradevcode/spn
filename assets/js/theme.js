@@ -20,3 +20,23 @@ navLinks.forEach(link => {
         link.classList.add('active');
     });
 });
+
+window.addEventListener("scroll", function () {
+    let navbar = document.getElementById("mainNav");
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled"); // Adiciona a classe quando rola
+    } else {
+        navbar.classList.remove("scrolled"); // Remove a classe quando volta ao topo
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        let navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    });
+});

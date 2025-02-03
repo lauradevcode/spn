@@ -150,14 +150,25 @@ nav ul li a:hover {
 }
 
 .navbar {
-  max-height: 80px;  /* Controla a altura máxima da navbar */
-  padding: 10px 0;  /* Ajusta o espaçamento interno */
+  background-color: #0089FF !important; /* Cor inicial */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  padding: 8px 0 !important; /* Diminui a altura da navbar */
+  height: 60px; /* Define uma altura menor */
 }
 
-.navbar-brand {
-  display: flex;
-  align-items: center;
+.navbar .nav-link, .navbar .navbar-brand {
+  color: white !important; /* Texto branco quando azul */
+  transition: color 0.3s ease-in-out;
 }
+
+.navbar.scrolled {
+  background-color: white !important; /* Cor ao rolar */
+}
+
+.navbar.scrolled .nav-link, .navbar.scrolled .navbar-brand {
+  color: #0089FF !important; /* Texto azul quando fundo branco */
+}
+
 
 
 .image {
@@ -181,6 +192,35 @@ nav ul li a:hover {
   opacity: 1; /* Garantir visibilidade da caixa */
 }
 
+
+/* Efeito ao passar o mouse */
+.image-text-box:hover {
+  transform: scale(1.05); /* Aumenta levemente o tamanho */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+
+/* Animação no texto */
+.image-text-box p {
+  transition: color 0.3s ease-in-out;
+}
+
+.clean-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  justify-content: center;
+}
 
 
 
@@ -238,6 +278,9 @@ nav ul li a:hover {
   color: #fff;
 }
 
+
+
+
 @media (max-width: 767px) {
   .text-center-sm {
     text-align: center !important;
@@ -268,30 +311,167 @@ nav ul li a:hover {
   text-align: center;
 }
 
-/* Estilo para telas pequenas */
+/* Navbar em telas pequenas (celulares) */
 @media (max-width: 767px) {
-  .custom-section {
-    height: 80px;
+  .navbar {
+      height: auto; /* Ajusta altura automaticamente */
+      padding: 10px !important;
+      transition: all 0.3s ease-in-out;
   }
 
-  .custom-text {
-    font-size: 18px !important;
+  .navbar .nav-link {
+      font-size: 14px !important;
+      display: block;
+      text-align: center;
+      padding: 10px 0;
   }
-  
+
+  .navbar-toggler {
+      border: none; /* Remove borda do botão */
+  }
+
+  .navbar .navbar-brand img {
+      max-height: 40px;
+  }
 }
 
-/*segunda section*/
+/* Navbar antes de rolar (fundo azul) */
+.navbar {
+  background: rgb(0, 137, 255); /* Azul padrão */
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Navbar ao rolar (fundo branco) */
+.navbar.scrolled {
+  background: rgba(255, 255, 255, 0.98) !important; /* Branco */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Mantém a visibilidade dos links ao mudar de cor */
+.navbar .nav-link {
+  color: #fff !important; /* Branco no fundo azul */
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar.scrolled .nav-link {
+  color: #0089FF !important; /* Preto no fundo branco */
+}
+
+/* Ajuste da logo ao rolar */
+.navbar.scrolled .navbar-brand img {
+  max-height: 50px !important;
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* Estilos do Footer */
+.footer {
+  background-color: #f8f9fa; /* Cor de fundo suave */
+  padding: 40px 0; /* Espaçamento interno */
+  color: var(--bs-emphasis-color); /* Cor do texto */
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer .container {
+  max-width: 1200px; /* Largura máxima para o container */
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer .col-md-3,
+.footer .col-md-4 {
+  padding: 15px; /* Espaçamento entre colunas */
+}
+
+/* Logo */
+.footer img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Títulos */
+.footer h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--bs-emphasis-color);
+  margin-bottom: 10px;
+}
+
+/* Links */
+.footer a {
+  color: var(--bs-emphasis-color);
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer a:hover {
+  color: #00a2ff; /* Mudança de cor ao passar o mouse */
+  transform: scale(1.05); /* Efeito de zoom */
+}
+
+/* Lista de links */
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li a {
+  color: var(--bs-emphasis-color);
+  font-size: 14px;
+}
+
+.footer ul li a:hover {
+  color: #00a2ff;
+}
+
+/* Informações de Contato */
+.footer .col-md-4 p {
+  font-size: 14px;
+  color: var(--bs-emphasis-color);
+  margin-bottom: 8px;
+}
+
+/* Copyright */
+.footer-copyright {
+  background-color: #0089FF; /* Cor de fundo do copyright */
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-copyright p {
+  margin-bottom: 0;
+}
+
+/* Responsividade */
 @media (max-width: 767px) {
-  .text-center-sm {
-    text-align: center !important;
+  .footer .row {
+      flex-direction: column;
+      align-items: center;
   }
 
-  .center-h3 {
-    text-align: center !important;
-    font-size: 20px !important;
-    margin-left: 50px !important;
+  .footer .col-md-3,
+  .footer .col-md-4 {
+      text-align: center;
+      padding: 20px;
+  }
+
+  .footer .footer-copyright {
+      padding: 15px;
   }
 }
+
 
 /* Estilos para telas maiores */
 @media (min-width: 992px) {
